@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:authentication/main.dart';
 import 'package:authentication/uihelper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -29,6 +31,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   builder: (context) => MyHomePage(title: "HomePage")));
         });
       } on FirebaseAuthException catch (ex) {
+        // ignore: use_build_context_synchronously
         return UiHelper.CustomAlertBox(context, ex.code.toString());
       }
     }

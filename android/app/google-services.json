@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "143706525162",
-    "project_id": "authentication-99dbd",
-    "storage_bucket": "authentication-99dbd.appspot.com"
+    "project_number": "116834294360",
+    "project_id": "flutter-firebase-a03f3",
+    "storage_bucket": "flutter-firebase-a03f3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:143706525162:android:f358d4adb5d691e25ef693",
+        "mobilesdk_app_id": "1:116834294360:android:59265c8d93a4fa1f98c82d",
         "android_client_info": {
           "package_name": "com.example.authentication"
         }
@@ -15,7 +15,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB_8usLe8Og_HBs9zl4QyElQdeSorfCwco"
+          "current_key": "AIzaSyCglwewa23F0MJS8B6NZDHdv4CnAFD9Drg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116834294360:android:08615ae017ae261298c82d",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglwewa23F0MJS8B6NZDHdv4CnAFD9Drg"
         }
       ],
       "services": {
